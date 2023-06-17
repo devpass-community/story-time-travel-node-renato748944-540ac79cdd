@@ -8,9 +8,8 @@ const getCurrentDate = () => {
 	if (mm < 10) mm = '0' + mm;
 
 	const formattedToday = yyyy + '-' + mm + '-' + dd;
+	return formattedToday
 };
-
-return formattedToday
 
 module.exports = {
 	getCurrentDate
